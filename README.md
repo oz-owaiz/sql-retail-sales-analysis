@@ -126,7 +126,7 @@ As a result, the dataset does not support meaningful analysis of repeat purchase
 ```text
 sql-retail-sales-analysis/
 │
-├── retail_sales.csv
+├── retail_sales_dataset.csv
 ├── retail_sales_analysis.sql
 └── README.md
 ```
