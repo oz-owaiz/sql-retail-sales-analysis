@@ -138,3 +138,12 @@ This project helped me strengthen my SQL skills by working with a retail sales d
 It also improved my ability to approach data-related problems systematically, write analytical queries, and extract useful insights from transactional data.
 
 This project is part of my ongoing journey toward becoming a Machine Learning / AI Engineer.
+
+## Author
+
+**Owais Ali**
+
+Aspiring Machine Learning / AI Engineer
+
+GitHub: https://github.com/oz-owaiz
+
