@@ -56,10 +56,6 @@ STR_TO_DATE(TRIM(`Date`), '%Y-%m-%d') AS converted_date
 FROM retail_sales_table
 WHERE `Transaction ID` <= 5;
 
-SELECT COUNT(*) AS invalid_dates
-FROM retail_sales_table
-WHERE STR_TO_DATE(TRIM(`Date`), '%Y-%m-%d') IS NULL;
-
 SELECT COUNT(*) AS records_with_date_header
 FROM retail_sales_table
 WHERE `Date` = 'Date';
@@ -212,7 +208,7 @@ FROM retail_sales_table
 GROUP BY product_category;
 
 -- Q20. Find the number of transactions made by each gender.
-SELECT gender, COUNT(transaction_id) AS no_of_transaction
+SELECT gender, COUNT(transaction_id) AS total_transaction
 FROM retail_sales_table
 GROUP BY gender;
 
